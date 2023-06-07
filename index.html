@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adopta una Mascota - Encuentra tu compañero perfecto</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="scripts.js"></script>
+
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+          <li><a href="#seccion-adopcion">Adopción</a></li>
+          <li><a href="#seccion-contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    <!-- Código del encabezado de la página -->
+  </header>
+  
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Adopta una Mascota</h1>
+        <p>Encuentra a tu compañero perfecto</p>
+        <a href="#seccion-adopcion" class="cta-button">Ver mascotas disponibles</a>
+      </div>
+    </section>
+    
+    <section id="seccion-adopcion" class="adopcion-section">
+      <div class="container">
+        <h2>Mascotas disponibles para adopción</h2>
+        <div class="mascotas-grid">
+          <div class="mascota-item">
+            <img src="images/4.jpg" alt="Perro 1">
+            <h3>Nombre del Perro 1</h3>
+            <p>Edad: X años</p>
+            <p>Raza: Raza del perro</p>
+            <a href="#" class="cta-button">Adoptar</a>
+          </div>
+          <div class="mascota-item">
+            <img src="images/3.jpg" alt="Gato 1">
+            <h3>Nombre del Gato 1</h3>
+            <p>Edad: X años</p>
+            <p>Raza: Raza del gato</p>
+            <a href="#" class="cta-button">Adoptar</a>
+          </div>
+          <div class="mascota-item">
+            <img src="images/2.jpg" alt="Perro 2">
+            <h3>Nombre del Perro 2</h3>
+            <p>Edad: X años</p>
+            <p>Raza: Raza del perro</p>
+            <a href="#" class="cta-button">Adoptar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="cta-section">
+      <div class="container">
+        <h2>¿Listo para adoptar?</h2>
+        <p>Regístrate y encuentra a tu compañero de vida.</p>
+        <a href="#" class="cta-button">Regístrate</a>
+      </div>
+    </section>
+  </main>
+
+  <section id="seccion-contacto" class="contacto-section">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>¿Tienes alguna pregunta o consulta? ¡Contáctanos!</p>
+      <form id="contacto-form" onsubmit="validarFormulario(event)">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        <button type="submit" class="cta-button">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+  
+  
+  
+  
+  <footer>
+    <div class="container">
+        <p>Derechos de autor &copy; 2023 Adopta una Mascota. Todos los derechos reservados.</p>
+        <ul>
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Política de privacidad</a></li>
+        </ul>
+      </div>
+    <!-- Código del pie de página -->
+  </footer>
+</body>
+</html>

@@ -1,0 +1,182 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  /* Estilos de la sección de héroe */
+  .hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* Estilos de la sección de adopción de mascotas */
+  .adopcion-section {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .adopcion-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .mascotas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .mascota-item {
+    text-align: center;
+  }
+  
+  .mascota-item img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  .mascota-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .mascota-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos de la sección de contacto */
+  .contacto-section {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .contacto-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Estilos del formulario de contacto */
+#contacto-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contacto-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #contacto-form input,
+  #contacto-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
